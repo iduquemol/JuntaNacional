@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# Environment variables (see .env.example for the documented keys)
+.env
+
+# OpenSpec change history (active + archived) - not tracked in git
+openspec/changes/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
